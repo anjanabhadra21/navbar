@@ -1,0 +1,33 @@
+
+.uk-open .uk-offcanvas-bar {
+    left: 0;
+    background-color: rgb(43, 42, 42);
+    width: 280px;
+}
+#main_contaner  ul  li.uk-active a{
+    font-size: inherit;
+}
+#main_contaner  ul  li:nth-child(n) a{
+    font-size: inherit;
+}
+#main_contaner{
+    width: 70vw;
+}
+.uk-button{
+    background-color: #dbd5d5;
+    margin: 10px;
+    margin-left: 40px;
+}
+.uk-button:hover{
+    background-color: darkgray;
+}
+#main_contaner  ul li.uk-parent.uk-open ul  li.uk-nav-sub{
+    border: 1px solid #dce5ee;
+    padding-left: 30px;
+}
+.uk-nav-primary li a:hover{
+    background-color: #746767;
+}
+#main_contaner ul  li.uk-parent.uk-open ul a{
+    padding-left: 25%;
+}

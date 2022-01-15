@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approval page</title>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.4/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  
+</style>
+<body>
+    <!-- This is the button toggling the off-canvas sidebar -->
+    <a href="#offcanvas-slide" class="uk-button uk-button-default" uk-icon="icon:menu" id="menu" uk-toggle> </a>
+
+    <div id="offcanvas-slide" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+            <div class="uk-width-1-2@s" id="main_contaner" >
+                <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
+                    <h5>SOMNATH DAS</h5>
+                    <li class="uk-active"><a href="#">Home</a></li>
+
+
+                    <li class="uk-parent uk-open">
+                        <a href="#" >CLDL</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">ACTION</li>
+                            <li><a href="#">Deligation</a></li>
+                            <li><a href="#">Deligation By Me</a></li>
+                            <li><a href="#">OTD</a></li>
+                            <li><a href="#">Daily</a></li>
+                            <li class="uk-nav-sub">CLDL FORMS</li>
+                            <li><a href="#">Deligation Form</a></li>
+                            <li><a href="#">OTD Task Form</a></li>
+                            <li><a href="#">Daily Task Form</a></li>
+                            <li class="uk-nav-sub">ADMIN</li>
+                            <li><a href="#">Admin Daily</a></li>
+                            <li><a href="#">Daily CL Monitoring</a></li>
+                            <li><a href="#">Urgent Indent</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="uk-parent uk-open">
+                        <a href="#" >RECEPTION</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">ENTRY</li>
+                            <li><a href="#">Kanta Entry</a></li>
+                            <li><a href="#">Original Bill Receiving</a></li>
+                            <li><a href="#">Canteen Coupon Entry</a></li>
+                            <li><a href="#">Vendor Monitoring</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="uk-parent uk-open">
+                        <a href="#" >SALES</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">ENTRY</li>
+                            <li><a href="#">Quotation Rate Chart</a></li>
+                            <li><a href="#">Quotation Home</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="uk-parent uk-open">
+                        <a href="#" >ACCOUNT</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">INVOICE UPDATE</li>
+                            <li><a href="#">Generate Internal WayBill</a></li>
+                            <li><a href="#">Generate IRN</a></li>
+                            <li class="uk-nav-sub">EMAIL</li>
+                            <li><a href="#">Payment Voucher Sender</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="uk-parent uk-open">
+                        <a href="#" >PURCHASE</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">FORM</li>
+                            <li><a href="#">Urgent Indent Creation</a></li>
+                            <li class="uk-nav-sub">ACTION</li>
+                            <li><a href="#">PO Email Sender</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="uk-parent uk-open">
+                        <a href="#" >LAB</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">REPORT</li>
+                            <li><a href="#">Metelargy Report Generator</a></li>
+                            <li class="uk-nav-sub">UPDATE</li>
+                            <li><a href="#">Lab Metelargy Report Update</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="uk-parent uk-open">
+                        <a href="#" >ESS</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">FORMS</li>
+                            <li><a href="#">Late Comming Info</a></li>
+                            <li><a href="#">Resignation Submit</a></li>
+                            <li><a href="#">Canteen Info</a></li>
+                            <li><a href="#">Apply OT</a></li>
+                            <li><a href="#">Apply Leave</a></li>
+                            <li><a href="#">Suggestion Entry</a></li>
+                            <li><a href="#">Grievance Entry</a></li>
+                            <li><a href="#">Outdoor Duty Entry</a></li>
+                            <li><a href="#">Weekoff Change Request</a></li>
+                            <li><a href="#">Shift Change Request</a></li>
+                            <li class="uk-nav-sub">HOD APPROVAL</li>
+                            <li><a href="#">HOD Approval</a></li>
+                            <li><a href="#">Leave Approval</a></li>
+                            <li><a href="#">HOD Approval</a></li>
+                            <li><a href="#">Late Attandance Entry</a></li>
+                            <li><a href="#">Suggestion Entry</a></li>
+                            <li><a href="#">Approve OT</a></li>
+                            <li><a href="#">Outdoor Duty HOD</a></li>
+                            <li><a href="#">Outdoor Duty Approval</a></li>
+                            <li><a href="#">Shift Change Approval</a></li>
+                            <li><a href="#">Leave Approval</a></li>
+                            <li class="uk-nav-sub">HR APPROVAL</li>
+                            <li><a href="#">Ot Admin</a></li>
+                            <li><a href="#">Approve Leave</a></li>
+                            <li><a href="#">Grievance Redessrial</a></li>
+                            <li><a href="#">Late Attandance HR</a></li>
+                            <li><a href="#">Outdoor Duty HR</a></li>
+                            <li><a href="#">Weekoff Change HR</a></li>
+                            <li><a href="#">Shift Change Approval HR</a></li>
+                            <li><a href="#">Employee Details Update</a></li>
+                            <li class="uk-nav-sub">APPRAISAL/KRA</li>
+                            <li><a href="#">KRA Points</a></li>
+                            <li><a href="#">Employee Assesment</a></li>
+                            <li><a href="#">Appraisal(HR)</a></li>
+                            <li><a href="#">Appraisal/KRA</a></li>
+                            <li class="uk-nav-sub">LINKS</li>
+                            <li class="uk-nav-sub">REPORT</li>
+                            <li><a href="#">Interview Score</a></li>
+                            <li><a href="#">Formal Referance No</a></li>
+                            <li><a href="#">FNF Tracker</a></li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="uk-parent uk-open">
+                        <a href="#" >ACCESS CONTROL</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">ADMIN</li>
+                            <li><a href="#">App Access Control</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="uk-parent uk-open">
+                        <a href="#" >IT</a>
+                        <ul class="uk-nav-sub">
+                            <li class="uk-nav-sub">ADMIN</li>
+                            <li><a href="#">Message sender</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-active"><a name="logout" href="/logout" uk-icon="sign-out"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+<!-- <script src="/navbar.js/"></script> -->
+
+</html>
